@@ -28,6 +28,9 @@ table td{
 .right{
     float: right;
 }
+.right button{
+    margin: 10px;
+}
 .qty{
     outline: none;
     border: 1px solid lightgray;

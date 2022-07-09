@@ -30,6 +30,14 @@ let data = [
         color: "green pie",
         price: 5000,
         qty:1
+    },
+    {
+        id: 2638,
+        image: "img3.jpg",
+        title: "reno 22",
+        color: "green alpha",
+        price: 4000,
+        qty:1
     }
 ];
 export default data;
