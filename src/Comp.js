@@ -35,7 +35,7 @@ function Header(){
 function Items({id,image,color,price,qty,title}){
     let {inc,dec,del} = useContext(MyContext);
     return <tr>
-      <td><img src={`http://localhost:3000/react_cart/images/${image}`} alt={title} /></td>
+      <td><img src={`./images/${image}`} alt={title} /></td>
       <td><h3>{title}</h3> <span>{color}</span></td>
       <td>
         <Button color="inherit" onClick={() => dec(id)}><RemoveIcon /></Button>
