@@ -42,7 +42,7 @@ function Items({id,image,color,price,qty,title}){
         <input type="number" value={qty} className="qty" readOnly />
         <Button color="inherit" onClick={() => inc(id)}><AddIcon /></Button>
       </td>
-      <td>{price}₹</td>
+      <td>{price * qty}₹</td>
       <td><Button color="inherit" onClick={() => del(id)}><DeleteIcon color="error" /></Button></td>
     </tr>
 }
